@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Message {
+    int32 mm = 1;
+}
+
+service HelloWorld {
+    rpc echo(Message) returns (Message) {}
+}
