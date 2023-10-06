@@ -3,7 +3,7 @@
 #include "grpcpp/server_context.h"
 #include "grpcpp/server.h"
 #include "grpcpp/security/server_credentials.h"
-#include "services/HelloWorld.grpc.pb.h"
+#include "protos/HelloWorld.grpc.pb.h"
 #include "Windows/AllowWindowsPlatformAtomics.h"
 #include "Windows/HideWindowsPlatformAtomics.h"
 

@@ -3,7 +3,7 @@
 for /f "tokens=*" %%i in ('cd') do set PLUGIN_DIR_ROOT=%%i
 cd %PLUGIN_DIR_ROOT%
 set PROTOC=Binaries\ThirdParty\grpc\Win64\bin\protoc.exe
-set SOURCE_DIR=Source
+set SOURCE_DIR=Source\protos
 set PROTOC_SRC_DIR=Source\protos
 set PROTOC_DES_DIR=Source\UE5_gRPCLoader\Public\protos
 set PROTOC_C_PLUGIN=%PLUGIN_DIR_ROOT%\Binaries\ThirdParty\grpc\Win64\bin\grpc_cpp_plugin.exe

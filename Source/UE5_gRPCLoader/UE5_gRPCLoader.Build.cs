@@ -12,7 +12,6 @@ public class UE5_gRPCLoader : ModuleRules
 		PublicDefinitions.Add("PROTOBUF_ENABLE_DEBUG_LOGGING_MAY_LEAK_PII=0");
 		PublicDefinitions.Add("PROTOBUF_BUILTIN_ATOMIC=0");
 		PublicDefinitions.Add("__SIZEOF_INT128__=0");
-		PublicDefinitions.Add("DO_CHECK=0");
 
 		bEnableUndefinedIdentifierWarnings = false;
 
