@@ -1,6 +1,10 @@
 UE5 Plugin UE5_gRPCLoader
 ===
 
+Tested Platform
+---
+1. Windows 10 + UE5.2.1
+
 **For now, the scripts (build.cmd & protoc.cmd) only support windows system**
 
 Introduction for Windows users
