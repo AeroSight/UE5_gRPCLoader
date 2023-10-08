@@ -43,6 +43,7 @@ Step 4 Build protobuf message
     ```
     #pragma warning(disable:4800)
     #pragma warning(disable:4067)
+    #pragma warning(disable:4668)
     #undef verify(expr)
     ```
 

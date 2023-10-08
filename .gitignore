@@ -1,5 +1,5 @@
 Binaries*
 Content*
 Intermediate*
-Source/ThirdParty/grpc*
+Source/ThirdParty/*
 Source/UE5_gRPCLoader/Public/protos
